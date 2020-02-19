@@ -1,0 +1,25 @@
+.conteneur{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid;	
+}
+header, footer{
+	height: 120px;
+	background: cadetblue;
+}
+nav{
+	height: 50px;
+	background: violet;	
+}
+main{
+	background: grey;
+	margin: 20px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.a{background: red;}
+.b{background: blue;}
+.c{background: orange;}
+.d{background: green;}
+.a, .b, .c, .d{width: 480px;}
